@@ -6,150 +6,133 @@
   <script src="https://use.fontawesome.com/d1341f9b7a.js" src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
   <title>My Profile</title>
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+        }
 
-* {
+*{
   box-sizing: border-box;
-}
+  }
 
 .bg-image {
-  /* The image used */
-  background-image: url("pink.jpg");
-  
-  /* Add the blur effect */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  
-  /* Full height */
-  height: 100%; 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-/* Position text in the middle of the page/image */
+    background-image: url("pink.jpg");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+
 .profile-content {
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  
-  border-radius: 10%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 100%;
-  height:100%;
-  padding: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
- 
-  text-align: center;
-
-}
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    height:100%;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    }
 img {
-  border-radius: 40%;
-  height: 150px;
-  width:150px;
-  text-align: left;
-}
+    border-radius: 40%;
+    height: 150px;
+    width:150px;
+    text-align: left;
+    }
+  
 p{
- 
-  display: block;
-
-}
+    display: block;
+  }
 a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
+   text-decoration: none;
+   font-size: 22px;
+    color: black;
+  }
 
 .profil-photo{
  
-  text-align: left;
+    text-align: left;
  
-  }
+    }
 
  
-   ul{
+ ul{
     margin: 0;
     padding: 0;
     display: inline-block;
-     list-style: none;
+    list-style: none;
    }
-   li{
+ li{
     margin: 6px;
     list-style: none;
    }
-   .box li a{
+  
+.box li a{
     color: white;
     text-decoration: none;
-    font-size: 3000px;
- 
-   }
-   .box li a:hover{
-    color: pink;
-   }
-   .social{
+    font-size: 3000px;}
   
-   text-align:center;
-   font-size: 14px;
+.box li a:hover{
+    color: pink;
+     }
+  
+.social{
+    text-align:center;
+    font-size: 14px;
     font-family: "Segoe Print";
     color: pink;
     font-style: inherit;
-    display: block;
+    display: block;}
   
-    
-   }
-    .socialStyle{
+.socialStyle{
   
    text-align:left;
    font-size: 14px;
-    font-family: "Segoe Print";
-    color: pink;
-    font-style: inherit;
-    display: block;
+   font-family: "Segoe Print";
+   color: pink;
+   font-style: inherit;
+   display: block;}
   
-    
-   }
-   .personal-info{
+.personal-info{
     text-align: center;
     border-radius: 5%;
     height: 100%;
     width: auto;
    }
-   
-    
-    .S-icons{
-    display: block;
-     font-size:20px;
-     text-align: left;
-    font-family: "Segoe Print";
-    
- }
   
-   .S2-icons{
+.S-icons{
+    display: block;
+    font-size:20px;
+    text-align: left;
+    font-family: "Segoe Print"; }
+  
+.S2-icons{
     display: block;
     text-align: left;
-     font-size: 2%;
-    font-family: "Segoe Print";
+    font-size: 2%;
+    font-family: "Segoe Print";}
+  
+.total{
+   display: inline-block;
  }
- .total{
-  display: inline-block;
- }
- .codewars{
-  height: 10%;
-  width: 10%;
+.codewars{
+   height: 10%;
+   width: 10%;
  }
   
-  .Accounts{
+.Accounts{
     text-align: right;
     height: auto;
     width: auto;
@@ -157,8 +140,8 @@ a {
     margin-left: 900px;
     border-radius:  30%;
   }
-
 </style>
+  
 </head>
 <body>
 
@@ -169,12 +152,11 @@ a {
             <fieldset style="display:inline-block" class="personal-info">
             <legend style="color: pink">Personal Page</legend>
           
-               <img class="social" style="display:inline-block"  src="rana.jpg" alt="Avatar">
+                <img class="social" style="display:inline-block"  src="rana.jpg" alt="Avatar">
                 <fieldset class="Accounts">
                 <legend class="socialStyle" style="color: pink">Accounts links</legend>
            
                 <ul >
-                 
                  <li class="S-icons" ><a href="https://github.com/ranasobeid95" target="_blank"<i class="fa fa-github" aria-hidden="true"></a></a></il>&nbsp
                  <li class="S-icons"><a href="https://www.freecodecamp.org/ranasobeid95"target="_blank"<i class="fa fa-free-code-camp" aria-hidden="true"></i></a></il>&nbsp 
                  <li class="S2-icons"><a href="https://www.codewars.com/users/ranasobeid95" target="_blank">Codewars</a></il>
@@ -186,23 +168,13 @@ a {
                  <li class="socialStyle" >Name : <label style="color: white "> Rana Obeid</label> </il>&nbsp
                  <li class="socialStyle">Age :<label style="color: white ">23</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Birthday : <label style="color: white ">11,june</label></il>&nbsp 
                  <li class="socialStyle">Address : <label style="color: white ">North of Gaza Strip</label></il>
-                  <li class="socialStyle">Education : <label style="color: white ">Bachelor's Degree</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Major : <label style="color: white ">Computer and Communications Engineering</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp University: <label style="color: white ">Al-Azhar University-Gaza </label>
-                  </il>
+                 <li class="socialStyle">Education : <label style="color: white ">Bachelor's Degree</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Major : <label style="color: white ">Computer and Communications Engineering</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp University: <label style="color: white ">Al-Azhar University-Gaza </label>
+                 </il>
                  <li class="socialStyle">My ambitions :<p style="color: white ">After I have finished my degree in Computer and communication engineering,I am looking to develop other skills, especially in programming to be a professional web developer to work as a freelancer, cause, we "Graduates" are facing the issue of lack of employment opportunities in Gaza.</p></il>
                 </ul>
-            
-                
-          
-          
-            
-          
-        </div>    
-  </div>
-     
-        
-      
-        
-    </div>
+             </div>    
+         </div>
+   </div>
 
 </body>
 </html>
